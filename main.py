@@ -83,8 +83,8 @@ class HTMLApplication(object):
         self.web.load(kickOffHTML)
 
         #self.web.setFixedSize(600,400)
-        geometry = app.desktop().availableGeometry()
-        self.web.setGeometry(geometry)
+        #geometry = app.desktop().availableGeometry()
+        #self.web.setGeometry(geometry)
  
         self.web.show()
  
